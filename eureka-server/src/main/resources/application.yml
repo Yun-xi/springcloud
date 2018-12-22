@@ -1,0 +1,13 @@
+# 该服务既是服务端(server)，也是客户端(client)，因此将它注册到自己
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+    # 不将该服务注册上去
+    register-with-eureka: false
+    fetch-registry: false
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 8761
