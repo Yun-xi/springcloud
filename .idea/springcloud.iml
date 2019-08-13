@@ -2,7 +2,18 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/product/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/order/server/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/order/server/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/order/server/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/product/common/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/product/client/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/product/server/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/product/server/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/config/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/config/src/main/resources" type="java-resource" />
+    </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

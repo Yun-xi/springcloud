@@ -1,0 +1,27 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Yun-xi/config-repo
+          username: 987159036@qq.com
+          password: 651867Xie
+          basedir: H:\basedir
+  rabbitmq:
+    host: 47.101.151.28
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -2,7 +2,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8762/eureka/
     # 表明自己是个eurekaServer
     register-with-eureka: false
     fetch-registry: false
