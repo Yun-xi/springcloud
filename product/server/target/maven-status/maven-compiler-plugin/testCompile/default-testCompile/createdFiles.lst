@@ -1,0 +1,5 @@
+com\xxxx\product\repository\ProductInfoRepositoryTest.class
+com\xxxx\product\ProductApplicationTests.class
+com\xxxx\product\service\CategoryServiceTest.class
+com\xxxx\product\repository\ProductCategoryRepositoryTest.class
+com\xxxx\product\service\ProductServiceTest.class
