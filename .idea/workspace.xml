@@ -2,150 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f5fcc52-d5d2-4e84-a9be-0f21a89cba0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_31_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_31_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_31_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_31_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_31_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_31_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_31_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_31_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_31_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_31_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_31_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_11_0_201803080745_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_4_11_0_201803080745_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_bus_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bus_amqp_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_tuple_1_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tuple_1_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/OrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/config/GirlConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/config/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/controller/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/controller/EnvController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/controller/GirlController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/controller/SendMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/dataobject/ProductInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/dto/CartDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/message/MQReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/message/StreamClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/message/StreamReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/message/StreamSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/utils/KeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/client/src/main/java/com/xxxx/product/client/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/common/src/main/java/com/xxxx/product/common/DecreaseStockInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/common/src/main/java/com/xxxx/product/common/ProductInfoOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/controller/ServerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/enums/ProductStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/enums/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/exception/ProductException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/utils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/utils/ResultVOUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/server/src/test/java/com/imooc/product/service/ProductServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/springcloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/springcloud.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/OrderApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/VO/ResultVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/VO/ResultVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/converter/OrderForm2OrderDTOConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/converter/OrderForm2OrderDTOConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/dataobject/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/dataobject/OrderDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/dataobject/OrderMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/dataobject/OrderMaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/dto/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/dto/OrderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/enums/OrderStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/enums/OrderStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/enums/PayStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/enums/PayStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/enums/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/enums/ResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/exception/OrderException.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/exception/OrderException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/form/OrderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/form/OrderForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/repository/OrderDetailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/repository/OrderDetailRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/repository/OrderMasterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/repository/OrderMasterRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/service/impl/OrderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/utils/KeyUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/xxxx/order/utils/ResultVOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/utils/ResultVOUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/test/java/com/xxxx/order/OrderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/test/java/com/xxxx/order/OrderApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/test/java/com/xxxx/order/repository/OrderDetailRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/test/java/com/xxxx/order/repository/OrderMasterRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/ProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/dataobject/ProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/dataobject/ProductCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/dataobject/ProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/dataobject/ProductInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/enums/ProductStatusEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/repository/ProductCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/repository/ProductCategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/repository/ProductInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/repository/ProductInfoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/service/impl/ProductServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/utils/ResultVOUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/vo/ProductInfoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/VO/ProductInfoVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/vo/ProductVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/VO/ProductVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/xxxx/product/vo/ResultVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/java/com/xxxx/product/VO/ResultVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/test/java/com/xxxx/product/ProductApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/test/java/com/imooc/product/ProductApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/test/java/com/xxxx/product/repository/ProductCategoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/test/java/com/imooc/product/repository/ProductCategoryRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/test/java/com/xxxx/product/repository/ProductInfoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/test/java/com/imooc/product/repository/ProductInfoRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/test/java/com/xxxx/product/service/impl/CategoryServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/test/java/com/imooc/product/service/CategoryServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/test/java/com/xxxx/product/service/impl/ProductServiceImplTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client/target/" />
@@ -169,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/order/server/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="414">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/OrderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="115">
               <caret line="8" column="22" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -212,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/config/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -221,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -230,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -238,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/src/main/java/com/xxxx/config/ConfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="161">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -259,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/message/MQReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
+            <state relative-caret-position="621">
               <caret line="36" column="38" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -582,6 +439,12 @@
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
@@ -930,7 +793,8 @@
       <workItem from="1565266270594" duration="597000" />
       <workItem from="1565444649354" duration="594000" />
       <workItem from="1565506838881" duration="598000" />
-      <workItem from="1565675054908" duration="5041000" />
+      <workItem from="1565675054908" duration="5392000" />
+      <workItem from="1565787557555" duration="212000" />
     </task>
     <servers />
   </component>
@@ -967,11 +831,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59041000" />
+    <option name="totallyTimeSpent" value="59392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -979,9 +842,9 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26172706" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.26439232" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.30066815" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.30066815" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.3292683" />
@@ -990,7 +853,7 @@
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.4443207" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.4443207" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.39309576" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -1253,34 +1116,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/pom.xml">
+    <entry file="file://$PROJECT_DIR$/order/server/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="414">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/message/MQReceiver.java">
+    <entry file="file://$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/OrderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="115">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1291,23 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/java/com/xxxx/config/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product/server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1315,17 +1147,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/server/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="46">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/OrderApplication.java">
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="138">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/java/com/xxxx/config/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/message/MQReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
