@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f5fcc52-d5d2-4e84-a9be-0f21a89cba0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order/client/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/client/target/order-client-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/order/client/target/order-client-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order/common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/common/target/order-common-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/order/common/target/order-common-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/config/GirlConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/config/RabbitConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/controller/EnvController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/controller/EnvController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/controller/GirlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/controller/GirlController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/controller/SendMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/controller/SendMessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/form/OrderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/form/OrderForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/message/MQReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/message/StreamClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/message/StreamReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/message/StreamSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/java/com/xxxx/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/config/GirlConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/config/RabbitConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/controller/EnvController.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/controller/EnvController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/controller/GirlController.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/controller/GirlController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/controller/SendMessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/controller/SendMessageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/form/OrderForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/form/OrderForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/message/MQReceiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/message/StreamClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/message/StreamReceiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/message/StreamSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/classes/com/xxxx/order/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/order-server-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/order-server-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/server/target/order-server-1.0.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/order/server/target/order-server-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product/client/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/product/client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/product/client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/client/target/product-client-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/product/client/target/product-client-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product/common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/product/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/product/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/common/target/product-common-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/product/common/target/product-common-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/server/src/test/java/com/imooc/product/repository/ProductCategoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/src/test/java/com/imooc/product/repository/ProductCategoryRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/server/target/test-classes/com/xxxx/product/repository/ProductCategoryRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/product/server/target/test-classes/com/xxxx/product/repository/ProductCategoryRepositoryTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="8f5fcc52-d5d2-4e84-a9be-0f21a89cba0f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,6 +247,7 @@
       <workItem from="1565675054908" duration="5041000" />
       <workItem from="1565754142210" duration="1873000" />
       <workItem from="1565761883855" duration="12092000" />
+      <workItem from="1565831568340" duration="876000" />
     </task>
     <servers />
   </component>
