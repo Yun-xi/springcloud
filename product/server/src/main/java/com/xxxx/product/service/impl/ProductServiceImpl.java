@@ -1,5 +1,6 @@
 package com.xxxx.product.service.impl;
 
+import com.xxxx.product.DTO.CartDTO;
 import com.xxxx.product.common.DecreaseStockInput;
 import com.xxxx.product.common.ProductInfoOutput;
 import com.xxxx.product.dataobject.ProductInfo;
@@ -45,6 +46,29 @@ public class ProductServiceImpl implements ProductService {
                     return output;
                 })
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    @Transactional
+    public void decreaseStock2(List<CartDTO> cartDTOList) {
+        for (CartDTO cartDTO : cartDTOList) {
+            // 1.判断商品是否存在
+            Optional<ProductInfo> productInfoOptional = productInfoRepository.findById(cartDTO.getProductId());
+            if (!productInfoOptional.isPresent()) {
+                throw new ProductException(ResultEnum.PRODUCT_NOT_EXIST);
+            }
+
+            // 2.判断库存是否足够
+            ProductInfo productInfo = productInfoOptional.get();
+            int result = productInfo.getProductStock() - cartDTO.getProductQuantity();
+            if (result < 0) {
+                throw new ProductException(ResultEnum.PRODUCT_STOCK_ERROR);
+            }
+
+            // 3.进行扣库存
+            productInfo.setProductStock(result);
+            productInfoRepository.save(productInfo);
+        }
     }
 
     @Override

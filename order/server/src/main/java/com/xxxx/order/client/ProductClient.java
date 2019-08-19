@@ -1,7 +1,12 @@
 package com.xxxx.order.client;
 
+import com.xxxx.order.dto.CartDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import java.util.List;
 
 /**
  * feign使用三步骤：
@@ -21,4 +26,7 @@ public interface ProductClient {
 
     @GetMapping("/msg")
     String productMsg();
+
+    @PostMapping("/decreaseStock2")
+    void decreaseStock2(@RequestBody List<CartDTO> cartDTOList);
 }

@@ -1,5 +1,6 @@
 package com.xxxx.product.service;
 
+import com.xxxx.product.DTO.CartDTO;
 import com.xxxx.product.common.DecreaseStockInput;
 import com.xxxx.product.common.ProductInfoOutput;
 import com.xxxx.product.dataobject.ProductInfo;
@@ -23,6 +24,12 @@ public interface ProductService {
      * @return
      */
     List<ProductInfoOutput> findList(List<String> productIdList);
+
+    /**
+     * 扣库存
+     * @param cartDTOList
+     */
+    void decreaseStock2(List<CartDTO> cartDTOList);
 
     /**
      * 扣库存
