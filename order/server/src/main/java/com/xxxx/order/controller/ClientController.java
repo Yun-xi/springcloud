@@ -1,5 +1,6 @@
 package com.xxxx.order.controller;
 
+import com.xxxx.order.client.ProductClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -18,6 +19,10 @@ public class ClientController {
     @Autowired
     private RestTemplate restTemplate;
 
+    @Autowired
+    private ProductClient productClient;
+
+
     @GetMapping("/getProductMsg")
     public String getProductMsg() {
         // 1.第一种方式(直接使用restTemplate，url写死)
@@ -27,13 +32,13 @@ public class ClientController {
 
 
         // 2.第二种方式(利用loadBalancerClient通过应用名获取url，然后再使用restTemplate)
-        RestTemplate restTemplate = new RestTemplate();
-        ServiceInstance serviceInstance = loadBalancerClient.choose("PRODUCT");
-        String host = serviceInstance.getHost();
-        int port = serviceInstance.getPort();
-
-        String url = String.format("http://%s:%s", host, port) + "/msg";
-        String response = restTemplate.getForObject(url, String.class);
+//        RestTemplate restTemplate = new RestTemplate();
+//        ServiceInstance serviceInstance = loadBalancerClient.choose("PRODUCT");
+//        String host = serviceInstance.getHost();
+//        int port = serviceInstance.getPort();
+//
+//        String url = String.format("http://%s:%s", host, port) + "/msg";
+//        String response = restTemplate.getForObject(url, String.class);
 
 
         // 3.第三种方式(利用@LoadBalanced，可在restTemplate里使用应用名字)
@@ -41,5 +46,10 @@ public class ClientController {
 
         log.info("response: {}", response);
         return response;
+    }
+
+    @GetMapping("/getProductMsg2")
+    public String getProductMsg2() {
+        return productClient.productMsg();
     }
 }
