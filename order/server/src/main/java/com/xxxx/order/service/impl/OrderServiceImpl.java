@@ -35,8 +35,8 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private OrderMasterRepository orderMasterRepository;
 
-//    @Autowired
-//    private ProductClient productClient;
+    @Autowired
+    private ProductClient productClient;
 
     @Override
     public OrderDTO create(OrderDTO orderDTO) {
@@ -46,8 +46,8 @@ public class OrderServiceImpl implements OrderService {
         List<String> productIdList = orderDTO.getOrderDetailList().stream()
                 .map(OrderDetail::getProductId)
                 .collect(Collectors.toList());
-//        List<ProductInfoOutput> productInfoList = productClient.listForOrder(productIdList);
-        List<ProductInfoOutput> productInfoList = new ArrayList<>();
+        List<ProductInfoOutput> productInfoList = productClient.listForOrder(productIdList);
+//        List<ProductInfoOutput> productInfoList = new ArrayList<>();
 
        //计算总价
         BigDecimal orderAmout = new BigDecimal(BigInteger.ZERO);
@@ -68,10 +68,9 @@ public class OrderServiceImpl implements OrderService {
         }
 
        //扣库存(调用商品服务)
-        List<DecreaseStockInput> decreaseStockInputList = orderDTO.getOrderDetailList().stream()
-                .map(e -> new DecreaseStockInput(e.getProductId(), e.getProductQuantity()))
+        List<DecreaseStockInput> decreaseStockInputList = orderDTO.getOrderDetailList().stream().map(e -> new DecreaseStockInput(e.getProductId(), e.getProductQuantity()))
                 .collect(Collectors.toList());
-//        productClient.decreaseStock(decreaseStockInputList);
+        productClient.decreaseStock(decreaseStockInputList);
 
         //订单入库
         OrderMaster orderMaster = new OrderMaster();

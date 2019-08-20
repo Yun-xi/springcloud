@@ -14,3 +14,18 @@ eureka:
 spring:
   application:
     name: eureka-server
+
+#eureka:
+#  instance:
+#    prefer-ip-address: true  #  将自身ip注册到Eureka中
+#    instance-id:  ${spring.application.name}(${spring.cloud.client.ip-address}:${server.port})  # 自定义显示方式 项目名称（ip:port）
+#
+#  client:
+#    register-with-eureka: false #  是否注册到服务中 ，由于是单机版本，设置为 false ， 如果需要配置高可用的 Eureka Server 需要设置为 true
+#    fetch-registry: false  #  是否从 Server 中获取服务列表 ，设置为 false ，如果需要配置高可用的 Eureka Server 需要设置为 true
+#    service-url:
+#      defaultZone:  http://user:password123@localhost:8761/eureka/ # Eureka Server 地址 高可用的 需要相互注册 多个地址用，号分割
+#
+#  server:
+#    enable-self-preservation: false  # 关闭Eureka 自我保护功能，生产环境不建议关闭
+#    eviction-interval-timer-in-ms: 4000 # 设置清理间隔时间 单位 （毫秒） 默认60*1000

@@ -17,6 +17,9 @@ spring:
       #    service-id: CONFIG
     # profile: dev
 eureka:
+  instance:
+    prefer-ip-address: true  #  将自身ip注册到Eureka中
+    instance-id:  ${spring.application.name}(${spring.cloud.client.ip-address}:${server.port})  # 自定义显示方式 项目名称（ip:port）
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://47.101.151.28:8761/eureka/

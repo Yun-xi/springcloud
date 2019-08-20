@@ -3,6 +3,7 @@ com\xxxx\product\controller\ServerController.class
 com\xxxx\product\repository\ProductInfoRepository.class
 com\xxxx\product\dataobject\ProductInfo.class
 com\xxxx\product\ProductApplication.class
+com\xxxx\product\DTO\CartDTO.class
 com\xxxx\product\utils\ResultVOUtil.class
 com\xxxx\product\service\CategoryService.class
 com\xxxx\product\enums\ResultEnum.class
