@@ -1,9 +1,8 @@
 package com.xxxx.order.controller;
 
-import com.xxxx.order.client.ProductClient;
+import com.xxxx.product.client.ProductClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -48,8 +47,8 @@ public class ClientController {
         return response;
     }
 
-    @GetMapping("/getProductMsg2")
-    public String getProductMsg2() {
-        return productClient.productMsg();
-    }
+//    @GetMapping("/getProductMsg2")
+//    public String getProductMsg2() {
+//        return productClient.productMsg();
+//    }
 }

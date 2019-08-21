@@ -20,11 +20,11 @@ import java.util.List;
  *   在方法上声明@GetMapping("/msg")
  *
  */
-@FeignClient(name = "product")
+//@FeignClient(name = "product")
 public interface ProductClient {
 
-    @GetMapping("/msg")
-    String productMsg();
+//    @GetMapping("/msg")
+//    String productMsg();
 
 //    @PostMapping("/decreaseStock2")
 //    void decreaseStock2(@RequestBody List<CartDTO> cartDTOList);
