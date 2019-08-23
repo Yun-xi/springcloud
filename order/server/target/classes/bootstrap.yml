@@ -13,11 +13,7 @@ spring:
 #        inputBinding:
 #          group: order
 #          content-type: application/json
-  rabbitmq:
-    host: 47.101.151.28
-    port: 5672
-    username: guest
-    password: guest
+
 
 eureka:
   instance:
