@@ -5,6 +5,8 @@ import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.stereotype.Component;
 
+import static com.xxxx.order.message.StreamClient.INPUT_MESSAGE;
+
 /**
  * @author xieyaqi
  * @mail xieyaqi11@gmail.com
@@ -15,7 +17,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class StreamReceiver {
 
-    @StreamListener("myMessage")
+    @StreamListener(INPUT_MESSAGE)
     public void process(Object message) {
         log.info("StreamReceiver: {}", message);
     }

@@ -1,3 +1,4 @@
+
 spring:
   application:
     name: order
@@ -8,11 +9,15 @@ spring:
         enabled: true
         service-id: CONFIG
       profile: test
-#    stream:
-#      bindings:
-#        inputBinding:
-#          group: order
-#          content-type: application/json
+    stream:
+      bindings:
+        input_message:
+          destination: order
+          group: MyMessage
+          content-type: application/json
+        output_message:
+          destination: order
+          content-type: application/json
 
 
 eureka:
@@ -27,3 +32,4 @@ eureka:
 #PRODUCT:
 #  ribbon:
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
