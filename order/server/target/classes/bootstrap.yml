@@ -18,6 +18,13 @@ spring:
         output_message:
           destination: order
           content-type: application/json
+        input_message2:
+          destination: order2
+          group: MyMessage
+          content-type: application/json
+        output_message2:
+          destination: order2
+          content-type: application/json
 
 
 eureka:
