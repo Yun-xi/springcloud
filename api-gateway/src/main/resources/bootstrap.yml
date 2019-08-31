@@ -17,4 +17,13 @@ eureka:
   client:
     service-url:
       defaultZone: http://47.101.151.28:8761/eureka/
-
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
