@@ -17,13 +17,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://47.101.151.28:8761/eureka/
-zuul:
-  routes:
-    myProduct:
-      path: /myProduct/**
-      serviceId: product
+
+
+
+# 将routes endpoint暴露出来，访问http://192.168.0.109:8080/actuator/routes即可查看routes规则，或者http://192.168.0.109:8080/actuator/routes/detail
 management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include: routes
