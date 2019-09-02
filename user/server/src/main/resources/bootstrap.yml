@@ -5,7 +5,6 @@ spring:
     name: user
   cloud:
     config:
-      #      uri: http://localhost:8082
       discovery:
         enabled: true
         service-id: CONFIG
