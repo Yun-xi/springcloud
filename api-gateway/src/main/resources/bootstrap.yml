@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 80
 spring:
   application:
     name: api-gateway
@@ -26,3 +26,4 @@ management:
     web:
       exposure:
         include: routes
+
