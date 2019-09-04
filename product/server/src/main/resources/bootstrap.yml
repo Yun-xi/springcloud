@@ -16,3 +16,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://47.101.151.28:8761/eureka/
+logging:
+  level:
+    org.springframework.cloud.openfeign: debug

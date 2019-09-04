@@ -26,6 +26,11 @@ spring:
         output_message2:
           destination: order2
           content-type: application/json
+  zipkin:
+    base-url: 47.101.151.28:9411
+  sleuth:
+    sampler:
+      probability: 1
 
 
 eureka:
@@ -59,3 +64,11 @@ feign:
 
 management:
   context-path: /
+  endpoints:
+    web:
+      exposure:
+        include:
+
+logging:
+  level:
+    org.springframework.cloud.openfeign: debug
