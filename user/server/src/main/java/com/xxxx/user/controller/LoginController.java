@@ -82,7 +82,6 @@ public class LoginController {
         UserInfo userInfo = userService.findByOpenid(openid);
         if (userInfo == null) {
             return ResultVOUtil.error(ResultEnum.LOGIN_FILE);
-
         }
 
         // 2.判断角色

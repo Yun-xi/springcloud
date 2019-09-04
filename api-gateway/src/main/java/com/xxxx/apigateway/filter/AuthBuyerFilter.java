@@ -18,7 +18,7 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.PRE_TYPE;
 
 @Component
-public class AuthFilter extends ZuulFilter {
+public class AuthBuyerFilter extends ZuulFilter {
 
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
@@ -36,7 +36,13 @@ public class AuthFilter extends ZuulFilter {
 
     @Override
     public boolean shouldFilter() {
-        return true;
+        RequestContext requestContext = RequestContext.getCurrentContext();
+        HttpServletRequest request = requestContext.getRequest();
+
+        if ("/order/order/create".equals(request.getRequestURI())) {
+            return true;
+        }
+        return false;
     }
 
     @Override
@@ -46,27 +52,12 @@ public class AuthFilter extends ZuulFilter {
 
         /**
          * /order/create 只能买家访问(cookie里有openid)
-         * /order/finish 只能卖家访问(cookie里有token,并且对应的redis中有值)
-         * /product/list 都能访问
          */
-        if ("/order/order/create".equals(request.getRequestURI())) {
-            Cookie cookie = CookieUtil.get(request, "openid");
-            if (cookie == null || StringUtils.isEmpty(cookie.getValue())) {
-                requestContext.setSendZuulResponse(false);
-                requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
-            }
+        Cookie cookie = CookieUtil.get(request, "openid");
+        if (cookie == null || StringUtils.isEmpty(cookie.getValue())) {
+            requestContext.setSendZuulResponse(false);
+            requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
         }
-
-        if ("/order/order/finish".equals(request.getRequestURI())) {
-            Cookie cookie = CookieUtil.get(request, "token");
-            if (cookie == null
-                    || StringUtils.isEmpty(cookie.getValue())
-                    || StringUtils.isEmpty(stringRedisTemplate.opsForValue().get(String.format(RedisConstant.TOKEN_TEMPLATE, cookie.getValue())))) {
-                requestContext.setSendZuulResponse(false);
-                requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
-            }
-        }
-
 
         return null;
     }
