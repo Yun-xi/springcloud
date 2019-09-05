@@ -7,4 +7,4 @@ EXPOSE 8888
 VOLUME /tmp
 COPY target/config.jar /usr/local/config.jar
 WORKDIR /usr/local
-ENTRYPOINT ["java", "jar", "/usr/local/config.jar"]
+ENTRYPOINT ["java", "-jar", "/usr/local/config.jar"]
